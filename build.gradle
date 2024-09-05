@@ -18,8 +18,6 @@ apply plugin: 'net.minecraftforge.gradle'
 apply plugin: 'org.spongepowered.mixin'
 apply plugin: 'org.parchmentmc.librarian.forgegradle'
 
-jarJar.enable()
-
 group = mod_group_id
 version = mod_version
 
