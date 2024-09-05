@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "package": "be.cloudns.edebe.timesync.fabric.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "PrimaryLevelDataMixin"
+  ],
+  "client": [
+    "client.ClientLevelDataMixin"
+  ],
+  "server": [],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
